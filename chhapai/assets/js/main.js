@@ -1105,7 +1105,7 @@
                 breakpoint: 420,
                 settings: {
                     autoplay: true,
-                    slidesToShow: 2,
+                    slidesToShow: 3,
                 }
             }
         ]
