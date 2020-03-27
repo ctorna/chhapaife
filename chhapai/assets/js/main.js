@@ -101,7 +101,7 @@
     $('.main-slider-active').owlCarousel({
         loop: true,
         nav: false,
-        autoplay: false,
+        autoplay: true,
         autoplayTimeout: 5000,
         animateOut: 'fadeOut',
         animateIn: 'fadeIn',
@@ -672,6 +672,29 @@
             },
             992: {
                 items: 1
+            },
+        }
+    })
+
+    /*----- Testimonial -----*/
+    $('.testimonial-slider').owlCarousel({
+        loop: true,
+        nav: false,
+        autoplay: true,
+        item: 1,
+        responsive: {
+            0: {
+                items: 1
+            },
+            576: {
+                items: 1,
+            },
+            769: {
+                items: 1
+            },
+            992: {
+                items: 2,
+                margin: 40
             },
         }
     })
